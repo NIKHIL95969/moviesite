@@ -1,0 +1,77 @@
+.MovieCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .MovieHead {
+    margin-bottom: 20px;
+  }
+  
+  .movieImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .movieImage img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .basicDetails {
+    margin-top: 20px;
+  }
+  
+  .basicDetails p {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .mvName {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .fr {
+    display: flex;
+    align-items: center;
+    height: 15px;
+  }
+  
+  .fr h5 {
+    margin-right: 10px;
+  }
+
+  .headingSummary {
+    /* margin-top: -40px; */
+    color: black;
+  }
+  
+  .summaryMovie {
+    height: auto;
+  }
+
+  .bookbtn {
+    margin-left: 50px;
+  }
+
+  .dialogContentText {
+    margin-bottom: 20px;
+  }
+  
+  .dialogActions {
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+
+  @media only screen and (max-width: 900px) {
+    .movieImage {
+        flex-direction: column;
+      }
+  }

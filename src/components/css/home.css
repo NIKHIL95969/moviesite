@@ -1,0 +1,27 @@
+.headingHome {
+    margin-top: -30px;
+    background: black;
+    color: white;
+}
+
+.moviesAll {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.movieContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5%;
+    row-gap: 30px;
+    column-gap: 50px;
+}
+
+.movieCard {
+    width: 450px;
+}
