@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NIKHIL95969/moviesite/static/css/main.af6a633d.css",
+    "main.js": "/NIKHIL95969/moviesite/static/js/main.d463ee74.js",
+    "index.html": "/NIKHIL95969/moviesite/index.html",
+    "main.af6a633d.css.map": "/NIKHIL95969/moviesite/static/css/main.af6a633d.css.map",
+    "main.d463ee74.js.map": "/NIKHIL95969/moviesite/static/js/main.d463ee74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af6a633d.css",
+    "static/js/main.d463ee74.js"
+  ]
+}
