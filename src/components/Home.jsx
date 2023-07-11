@@ -6,7 +6,7 @@ import MovieCard from './MovieCard';
 
 export default function Home() {
     const [movies, setMovies] = useState([]);
-
+console.log(movies);
   useEffect(() => {
     const fetchData = async () => {
       try {
