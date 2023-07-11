@@ -3,12 +3,13 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './components/Home.jsx';
 import MovieDetails from './components/MovieDetails';
 
-function handleClick () {
-  console.log("home")
-  window.location.pathname = "/";
-}
 
 function App() {
+  
+  function handleClick () {
+    window.location.pathname = "/";
+  }
+
   return (
     <div className="App">
       <div className="headingHome">
@@ -16,7 +17,7 @@ function App() {
       </div>
       <Router>
         <Routes>
-          <Route path='/' element={<Home />} / >
+          <Route path='/' element={<Home />} />
           <Route path="/details/:movieId" element={<MovieDetails/>} />
         </Routes>
       </Router>

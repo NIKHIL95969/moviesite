@@ -66,7 +66,12 @@ const MovieDetails = () => {
             <h5>Rating:</h5> ⭐{movie.rating?.average || 'N/A'}
           </p>
           <p className="summaryMovie">
-            <h5 className="headingSummary">Summary:</h5> {movie.summary}
+            <h5 className="headingSummary">Summary:</h5>
+            <div dangerouslySetInnerHTML={{
+                     __html: movie.summary
+                  }}>
+
+            </div>
           </p>
 
           <div className="bookbtn">
